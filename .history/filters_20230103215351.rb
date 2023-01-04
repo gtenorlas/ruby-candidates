@@ -9,7 +9,6 @@ def find(id)
     break
   end
   }
-  return candidate
 end
 
 def experienced?(candidate)

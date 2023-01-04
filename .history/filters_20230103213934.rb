@@ -4,12 +4,10 @@
 def find(id)
   candidate = nil
   candidates.each{|element|
-  if element['id'] == id
-    candidate = element
-    break
-  end
+if element['id'] == id
+  candidate = element
+  
   }
-  return candidate
 end
 
 def experienced?(candidate)
@@ -18,7 +16,6 @@ def experienced?(candidate)
     return true
   else
     return false
-  end
 end
 
 def qualified_candidates(candidates)
@@ -26,4 +23,3 @@ def qualified_candidates(candidates)
 end
 
 # More methods will go below
-

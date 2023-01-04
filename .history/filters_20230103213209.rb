@@ -2,14 +2,9 @@
 # This way, we keep these methods separated from other potential parts of the program
 
 def find(id)
-  candidate = nil
-  candidates.each{|element|
-  if element['id'] == id
-    candidate = element
-    break
-  end
-  }
-  return candidate
+  # Your code Here
+  candidate = candidates.id
+  if candidate
 end
 
 def experienced?(candidate)
@@ -18,7 +13,6 @@ def experienced?(candidate)
     return true
   else
     return false
-  end
 end
 
 def qualified_candidates(candidates)
@@ -26,4 +20,3 @@ def qualified_candidates(candidates)
 end
 
 # More methods will go below
-
