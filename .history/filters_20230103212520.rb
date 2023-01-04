@@ -9,8 +9,7 @@ def experienced?(candidate)
   # Your code Here
   if candidate['years_of_experience']>=2
     return true
-  else
-    return false
+    
 end
 
 def qualified_candidates(candidates)
